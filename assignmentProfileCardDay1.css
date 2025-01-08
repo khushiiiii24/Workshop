@@ -1,0 +1,64 @@
+* {
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7878eb;
+}
+h2{
+  font-weight: 900;
+}
+.inner-div {
+  background-color: rgb(172, 231, 231);
+  border-radius: 35px;
+
+  height: auto;
+  padding: 0; /* Ensure no padding is added */
+  margin: 0 375px; /* Ensure no margin is added */
+  text-align: center; /* Keeps content centered */
+  padding-top: 50px;
+}
+
+img {
+  border-radius: 50%; /* Makes the image circular */
+  height: 200px; /* Ensures the height is fixed */
+  width: 200px; /* Ensures the width matches height for a perfect circle */
+  border: 3px solid #ffffff; /* Adds a circular border with desired color */
+  margin: 0; /* Removes any default margin */
+  padding: 4px; /* Removes any default padding */
+}
+
+
+
+.buttonsubmessage {
+  display: flex;
+  gap: 25px
+}
+
+.Message {
+  background-color: #0da971;
+  border-radius: 50px;
+  color: white;
+}
+
+.Subscribe {
+  background-color:#0da971;
+  border-radius: 50px;
+  color: white;
+}
+.stats {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  gap: 15px; /* Add spacing between the items */
+  align-items: center; /* Align items vertically */
+  margin-top: 20px;
+  font-size: 18px; /* Adjust the font size if needed */
+}
+
+.stats div {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  gap: 5px; /* Space between the icon and text */
+}
